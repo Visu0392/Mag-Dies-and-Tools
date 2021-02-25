@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Fira Sans", sans-serif;
+  color: #222;
+}
+.navbar {
+  padding: 0.8rem;
+}
+.navbar-nav li {
+  padding-right: 10px;
+}
+.nav-link {
+  font-size: 1em !important;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h2 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 15px #000;
+  padding-bottom: 1rem;
+}
+.btn-primary {
+  background-color: orange;
+  border: 1px solid orange;
+}
+.btn-primary:hover {
+  background-color: black;
+  border: 1px solid black;
+}
+.social a {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: skyblue;
+}
+.fa-linkedin {
+  color: blue;
+}
+.fa-instagram {
+  color: #517fa4;
+}
+.fa-youtube {
+  color: crimson;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+}
